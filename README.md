@@ -36,7 +36,7 @@ npx mapscii
 
 ### With npm
 
-If you haven't already got Node.js >= version 6.14, then [go get it](http://nodejs.org/).
+If you haven't already got Node.js >= version 10, then [go get it](http://nodejs.org/).
 
 ```
 npm install -g mapscii
@@ -93,17 +93,17 @@ If your terminal supports mouse events you can drag the map and use your scroll 
 #### Handling the flow
 * [`bluebird`](https://github.com/petkaantonov/bluebird) for all the asynchronous [Promise](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Promise) magic
 * [`node-fetch`](https://github.com/bitinn/node-fetch) for HTTP requests
-* [`userhome`](https://github.com/shama/userhome) to determine where to persist downloaded tiles
+* [`env-paths`](https://github.com/sindresorhus/env-paths) to determine where to persist downloaded tiles
 
 ### TODOs
 * MapSCII
   * [ ] GeoJSON support via [geojson-vt](https://github.com/mapbox/geojson-vt)
   * [ ] CLI support
-    * [ ] startup parameters
-      * [ ] TileSource
-      * [ ] Style
-      * [ ] center position
-      * [ ] zoom
+    * [-] startup parameters
+      * [X] TileSource
+      * [X] Style
+      * [X] center position
+      * [X] zoom
       * [ ] demo mode?
 
   * [ ] mouse control
